@@ -1,0 +1,55 @@
+-- Load the DrRay library from the GitHub repository Library
+local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
+
+-- Create a new window and set its title and theme
+local window = DrRayLibrary:Load("scripts yeah", "Default")
+
+-- Create the first tab with an image ID
+local tab1 = DrRayLibrary.newTab("universal", "ImageIdHere")
+
+-- Add elements to the first tab
+tab1.newLabel("universal")
+tab1.newButton("chat bypasser", "weird chat bypasser", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/hellohellohell012321/KAWAII-BYPASS/main/kawaii-bypass",true))()
+end)
+
+-- Add elements to the first tab
+tab1.newLabel("universal")
+tab1.newButton("camlock/aimbot", "universal camlock", function()
+    loadstring(game:HttpGet("https://rentry.co/n55gmtpi/raw", true))()
+end)
+
+local tab1 = DrRayLibrary.newTab("games", "ImageIdHere")
+
+-- Add elements to the first tab
+tab1.newButton("breaking point", "breaking point", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/H4R7NHacks/Obfuscated/master/Breaking%20Point%20H4R7N%20Hack.lua"))()
+end)
+
+-- Add elements to the first tab
+tab1.newButton("untitled tag game", "I like this script", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/FbJYwgnQ'))()
+end)
+
+-- Add elements to the first tab
+tab1.newButton("answer or die", "auto answer", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/jaeelin/S-Ware/main/S-WARE'))()
+end)
+
+-- Add elements to the first tab
+tab1.newButton("doors", "simple doors script", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/UltraStuff/scripts2/main/doors"))()
+end)
+
+-- Add elements to the first tab
+tab1.newButton("3008", "3008 script", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/UltraStuff/scripts2/main/doors"))()
+end)
+
+-- Create the first tab with an image ID
+local tab1 = DrRayLibrary.newTab("misc", "ImageIdHere")
+
+-- Add elements to the first tab
+tab1.newButton("copy place id", "copies place id to clipboard", function()
+  setclipboard(game.PlaceId)
+end)
